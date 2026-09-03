@@ -34,8 +34,9 @@ export const ProfileCard = () => {
           onClick={async () => {
             try {
               // Download resume functionality
+              const resumeUrl = '/Ananya_KN_Resume.pdf';
               const link = document.createElement('a');
-              link.href = '/finalResume.pdf';
+              link.href = resumeUrl;
               link.download = 'Ananya_KN_Resume.pdf';
               link.target = '_blank';
               link.rel = 'noopener noreferrer';
@@ -44,7 +45,7 @@ export const ProfileCard = () => {
               document.body.removeChild(link);
             } catch (error) {
               console.error('Error downloading resume:', error);
-              window.open('/finalResume.pdf', '_blank');
+              window.open('/Ananya_KN_Resume.pdf', '_blank');
             }
           }}
         >
