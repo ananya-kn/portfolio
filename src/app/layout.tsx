@@ -17,12 +17,9 @@ const description =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: {
-    default: "Ananya K N | Full-Stack & AI Developer Portfolio",
-    template: "%s | Ananya K N",
-  },
+  title: "Ananya K N",
   description,
-  applicationName: "Ananya K N Portfolio",
+  applicationName: "Ananya K N",
   keywords: [
     "Ananya K N",
     "Ananya",
@@ -47,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "/",
-    title: "Ananya K N | Full-Stack & AI Developer Portfolio",
+    title: "Ananya K N",
     description,
     siteName: "Ananya K N",
     images: [
@@ -61,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ananya K N | Full-Stack & AI Developer Portfolio",
+    title: "Ananya K N",
     description,
     images: ["/favicon.svg"],
   },
