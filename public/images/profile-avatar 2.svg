@@ -1,0 +1,64 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shirtGrad" x1="400" y1="360" x2="400" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7E2F8"/>
+      <stop offset="1" stop-color="#A8C8EA"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="400" y1="160" x2="400" y2="530" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D7C5"/>
+      <stop offset="1" stop-color="#E6BA9A"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="316" y1="80" x2="470" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E3137"/>
+      <stop offset="1" stop-color="#101417"/>
+    </linearGradient>
+  </defs>
+
+  <g>
+    <path d="M245 385C245 270 325 170 420 170C520 170 592 270 592 385V764C592 804 560 836 520 836H280C240 836 208 804 208 764V385H245Z" fill="url(#shirtGrad)"/>
+    <path d="M315 467H485L510 820H290L315 467Z" fill="url(#shirtGrad)"/>
+    <path d="M376 455H424V820H376V455Z" fill="#C0D9F7" opacity="0.8"/>
+    <path d="M338 490H462" stroke="#A2BEDF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="348" cy="560" r="14" fill="#A7C5E7"/>
+    <circle cx="452" cy="560" r="14" fill="#A7C5E7"/>
+    <circle cx="348" cy="563" r="6" fill="#2B2F33"/>
+    <circle cx="452" cy="563" r="6" fill="#2B2F33"/>
+
+    <circle cx="400" cy="360" r="215" fill="url(#skinGrad)"/>
+
+    <path d="M267 313C292 213 345 145 410 130C470 116 542 141 580 205C610 257 611 328 604 382C569 328 524 288 469 273C422 260 360 263 314 294C295 304 281 312 267 313Z" fill="url(#hairGrad)"/>
+    <path d="M260 330C257 235 323 157 406 148C484 140 560 185 585 259C598 298 601 363 585 401C555 330 497 274 411 270C357 267 306 286 260 330Z" fill="url(#hairGrad)"/>
+    <path d="M266 350C240 430 252 510 293 564C325 605 364 632 400 646C435 660 474 660 510 642C549 623 582 591 600 553C619 513 625 450 612 391C591 439 552 485 498 509C457 527 422 530 392 528C347 524 305 494 266 350Z" fill="url(#hairGrad)"/>
+    <path d="M330 172C347 119 377 86 421 86C471 86 507 126 519 170C503 156 486 148 468 142C438 132 406 132 375 142C357 148 342 157 330 172Z" fill="#0D1014"/>
+
+    <path d="M322 346C333 328 347 318 365 315" stroke="#5B3F2F" stroke-width="10" stroke-linecap="round"/>
+    <path d="M478 346C467 328 453 318 435 315" stroke="#5B3F2F" stroke-width="10" stroke-linecap="round"/>
+
+    <ellipse cx="336" cy="382" rx="42" ry="26" fill="#F4F4F4"/>
+    <ellipse cx="466" cy="382" rx="42" ry="26" fill="#F4F4F4"/>
+    <ellipse cx="336" cy="381" rx="14" ry="17" fill="#2A2929"/>
+    <ellipse cx="466" cy="381" rx="14" ry="17" fill="#2A2929"/>
+    <circle cx="341" cy="375" r="5" fill="#FBFBFB"/>
+    <circle cx="471" cy="375" r="5" fill="#FBFBFB"/>
+
+    <path d="M392 410C402 420 420 420 430 410" stroke="#A76B59" stroke-width="6" stroke-linecap="round"/>
+    <path d="M355 447C372 459 387 464 400 465C413 464 428 459 445 447" stroke="#C37268" stroke-width="8" stroke-linecap="round"/>
+    <path d="M374 445C382 469 390 482 400 495C410 482 418 469 426 445" stroke="#C37268" stroke-width="8" stroke-linecap="round"/>
+
+    <path d="M306 340C328 311 349 288 381 276" stroke="#3C2D27" stroke-width="12" stroke-linecap="round"/>
+    <path d="M494 340C472 311 451 288 419 276" stroke="#3C2D27" stroke-width="12" stroke-linecap="round"/>
+
+    <path d="M310 153C285 185 249 236 241 266C264 246 288 228 314 208C337 189 344 163 310 153Z" fill="#0F1115"/>
+    <path d="M490 153C515 185 551 236 559 266C536 246 512 228 486 208C463 189 456 163 490 153Z" fill="#0F1115"/>
+    <path d="M513 166C547 188 572 218 591 259C572 250 552 246 535 247C520 251 509 258 493 271C505 236 507 198 513 166Z" fill="#171A1E"/>
+    <path d="M287 166C253 188 228 218 209 259C228 250 248 246 265 247C280 251 291 258 307 271C295 236 293 198 287 166Z" fill="#171A1E"/>
+
+    <path d="M285 260C308 224 335 197 374 183C347 174 318 174 285 180C267 188 246 205 232 227C249 244 267 253 285 260Z" fill="#111417"/>
+    <path d="M515 260C492 224 465 197 426 183C453 174 482 174 515 180C533 188 554 205 568 227C551 244 533 253 515 260Z" fill="#111417"/>
+
+    <circle cx="347" cy="640" r="10" fill="#A7C5E7"/>
+    <circle cx="453" cy="640" r="10" fill="#A7C5E7"/>
+    <circle cx="348" cy="638" r="4" fill="#2B2F33"/>
+    <circle cx="452" cy="638" r="4" fill="#2B2F33"/>
+  </g>
+</svg>
