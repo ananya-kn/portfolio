@@ -8,16 +8,19 @@ export const ProfileCard = () => {
   return (
     <div className="text-black dark:text-white rounded-4xl p-3 sm:p-4 md:p-6 lg:p-6 flex flex-col items-center justify-center min-h-[120px] sm:min-h-[150px] md:min-h-[200px] lg:min-h-[220px] h-full w-full">
       <div className="flex flex-col sm:flex-col md:flex-row items-center gap-4 md:gap-6 lg:gap-8 w-full max-w-sm sm:max-w-md md:max-w-3xl lg:max-w-4xl">
-        <Image
-          src="/images/profile.png"
-          alt="Ananya K N"
-          width={144}
-          height={144}
-          priority
-          fetchPriority="high"
-          sizes="(min-width: 1024px) 144px, (min-width: 768px) 128px, (min-width: 640px) 96px, 80px"
-          className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full object-cover flex-shrink-0 border border-white/10 shadow-lg"
-        />
+        <div className="relative overflow-hidden rounded-full border border-white/10 shadow-lg flex-shrink-0 bg-slate-200/10">
+          <Image
+            src="/images/profile.png"
+            alt="Ananya K N"
+            width={500}
+            height={500}
+            priority
+            fetchPriority="high"
+            sizes="(min-width: 1024px) 220px, (min-width: 768px) 180px, (min-width: 640px) 140px, 120px"
+            className="w-24 h-24 sm:w-28 sm:h-28 md:w-40 md:h-40 lg:w-[220px] lg:h-[220px] object-cover"
+            style={{ objectPosition: "center 10%" }}
+          />
+        </div>
 
         <div className="text-center md:text-left flex-1">
           <p className="text-sm sm:text-sm md:text-base lg:text-lg leading-relaxed">
