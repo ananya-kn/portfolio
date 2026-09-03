@@ -16,7 +16,7 @@ export const ProfileCard = () => {
           priority
           fetchPriority="high"
           sizes="(min-width: 1024px) 144px, (min-width: 768px) 128px, (min-width: 640px) 96px, 80px"
-          className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full object-cover flex-shrink-0"
+          className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full object-cover flex-shrink-0 border border-white/10 shadow-lg"
         />
 
         <div className="text-center md:text-left flex-1">

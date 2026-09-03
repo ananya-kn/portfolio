@@ -40,9 +40,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "/images/profile.png",
-    shortcut: "/images/profile.png",
-    apple: "/images/profile.png",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
   openGraph: {
     type: "website",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     siteName: "Ananya K N",
     images: [
       {
-        url: "/images/profile.png",
+        url: "/favicon.svg",
         width: 1200,
         height: 630,
         alt: "Ananya K N",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ananya K N | Full-Stack & AI Developer Portfolio",
     description,
-    images: ["/images/profile.png"],
+    images: ["/favicon.svg"],
   },
   robots: {
     index: true,
