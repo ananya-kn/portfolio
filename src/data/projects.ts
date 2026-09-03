@@ -13,7 +13,7 @@ export const projectsData: ProjectData[] = [
   {
     id: 'project-1',
     title: 'TruthLens',
-    description: "A two-stage AI pipeline for deception detection in candidate audio testimony, built for the Eightfold AI Competition (Track 2: AI Risk Manager). Uses Whisper for transcription, LangGraph to orchestrate the analysis pipeline, Gemini for reasoning, and Pydantic for structured, validated outputs. Every lie leaves a trace.",
+    description: "An AI-powered deception detection pipeline that transcribes, analyzes, and cross-examines candidate audio testimonies to surface contradictions and identify the most plausible truth.",
     image: '/images/truthlens.png',
     technologies: ['Whisper', 'LangGraph', 'Gemini', 'Pydantic', 'Python'],
     githubUrl: 'https://github.com/ananya-kn/TruthLens',
