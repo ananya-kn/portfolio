@@ -12,12 +12,12 @@ export const ProfileCard = () => {
           <Image
             src="/images/profile.png"
             alt="Ananya K N"
-            width={500}
-            height={500}
+            width={360}
+            height={360}
             priority
             fetchPriority="high"
-            sizes="(min-width: 1024px) 220px, (min-width: 768px) 180px, (min-width: 640px) 140px, 120px"
-            className="w-24 h-24 sm:w-28 sm:h-28 md:w-40 md:h-40 lg:w-[220px] lg:h-[220px] object-cover"
+            sizes="(min-width: 1024px) 180px, (min-width: 768px) 150px, (min-width: 640px) 120px, 100px"
+            className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-[180px] lg:h-[180px] object-cover"
             style={{ objectPosition: "center 10%" }}
           />
         </div>
