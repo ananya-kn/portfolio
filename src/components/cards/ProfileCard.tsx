@@ -10,7 +10,7 @@ export const ProfileCard = () => {
       <div className="flex flex-col sm:flex-col md:flex-row items-center gap-4 md:gap-6 lg:gap-8 w-full max-w-sm sm:max-w-md md:max-w-3xl lg:max-w-4xl">
         <div className="relative overflow-hidden rounded-full border border-white/10 shadow-lg flex-shrink-0 bg-slate-200/10">
           <Image
-            src="/images/profile.png"
+            src="/images/pic.png"
             alt="Ananya K N"
             width={500}
             height={500}
