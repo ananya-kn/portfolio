@@ -6,7 +6,7 @@ const LottiePlayer = dynamic(
   { ssr: false }
 );
 
-export default function SkillsAnimation() {
+export default function WavingCharacter() {
   return (
     <div className="w-full h-full">
       <LottiePlayer
