@@ -10,15 +10,15 @@ export const ProfileCard = () => {
       <div className="flex flex-col sm:flex-col md:flex-row items-center gap-4 md:gap-6 lg:gap-8 w-full max-w-sm sm:max-w-md md:max-w-3xl lg:max-w-4xl">
         <div className="relative overflow-hidden rounded-full border border-white/10 shadow-lg flex-shrink-0 bg-slate-200/10">
           <Image
-            src="/images/pic.png"
+            src="/images/profile-pic.jpeg"
             alt="Ananya K N"
             width={500}
             height={500}
             priority
             fetchPriority="high"
             sizes="(min-width: 1024px) 220px, (min-width: 768px) 180px, (min-width: 640px) 140px, 120px"
-            className="w-24 h-24 sm:w-28 sm:h-28 md:w-40 md:h-40 lg:w-[220px] lg:h-[220px] object-cover"
-            style={{ objectPosition: "center 10%" }}
+            className="w-24 h-24 sm:w-28 sm:h-28 md:w-40 md:h-40 lg:w-[220px] lg:h-[220px] object-cover scale-[1.0]"
+            style={{ objectPosition: "center 38%" }}
           />
         </div>
 
